@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets / credentials
+.env
+.env.*
+!.env.example
+mor_config.json
+config.json
+certs/
+*.pem
+*.key
+*.crt
+
+# OS / editor
+.DS_Store
+*.log
+Thumbs.db
+
+# Build artifacts
+dist/
+coverage/

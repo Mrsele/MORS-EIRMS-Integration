@@ -1,0 +1,28 @@
+{
+  "name": "@eirms-connector/nodejs",
+  "version": "1.0.0",
+  "description": "Node.js client for Ethiopia's EIRMS e-invoicing API (MOR)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "generate-keys": "node scripts/generate-keys.js",
+    "example:register-invoice": "node examples/register-invoice.js",
+    "example:register-payment": "node examples/register-payment.js"
+  },
+  "keywords": [
+    "eirms",
+    "mor",
+    "ethiopia",
+    "e-invoicing",
+    "ministry-of-revenue"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {}
+}
